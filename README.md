@@ -19,4 +19,4 @@
   1. Added POST route to create a record in the SQL database.
   2. Added GET route to retrieve results from the SQL database.
 -  Updated Prisma schema:
-  1. Changed the type of "phoneNumber" attribute in the schema from Integer to String.
+   1. Changed the type of "phoneNumber" attribute in the schema from Integer to String.
