@@ -18,5 +18,5 @@ model User {
   formType String
   name String
   countryCode String
-  phoneNumber Int
+  phoneNumber String
 }
