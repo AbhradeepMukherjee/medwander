@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Stack, Button, Typography, Box } from "@mui/material";
 export default function Home() {
   const navigate = useNavigate();
+  useEffect(()=>{
+    const userInfo = localStorage.getItem("user");
+    if(userInfo) navigate("/listing"); 
+  },[])
   return (
     <Box
       minHeight="100vh"
@@ -16,9 +20,9 @@ export default function Home() {
         width="50%"
         bgcolor="#686D76"
         borderRight="1px solid black"
-        display="flex"
         justifyContent="center"
         alignItems="center"
+        sx={{display: {xs: "none", md: "flex"}}}
       >
         <Typography
           sx={{
@@ -32,12 +36,24 @@ export default function Home() {
         </Typography>
       </Box>
       <Box
-        width="50%"
+        width={{md: "50%", xs: "100%"}}
         height="100vh"
         display="flex"
+        flexDirection={{md: "row", xs: "column"}}
         justifyContent="center"
         alignItems="center"
       >
+        <Typography
+          sx={{
+            color: "black",
+            fontFamily: "",
+            fontWeight: "bold",
+            fontSize: "3rem",
+            display: {md: "none"}
+          }}
+        >
+          Welcome
+        </Typography>
         <Stack
           gap={5}
           border="1px solid black"

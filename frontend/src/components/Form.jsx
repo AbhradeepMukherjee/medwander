@@ -87,7 +87,7 @@ export default function Form({ fType }) {
         width="50%"
         bgcolor="#686D76"
         borderRight="1px solid black"
-        display="flex"
+        sx={{display: {xs: "none", md: "flex"}}}
         justifyContent="center"
         alignItems="center"
       >
@@ -103,9 +103,10 @@ export default function Form({ fType }) {
         </Typography>
       </Box>
       <Box
-        width="50%"
+        width={{md: "50%", xs: "100%"}}
         height="100vh"
         display="flex"
+        flexDirection={{md: "row", xs: "column"}}
         justifyContent="center"
         alignItems="center"
       >
@@ -167,7 +168,7 @@ export default function Form({ fType }) {
             alignItems="center"
             gap={4}
           >
-            <InputLabel id="country-code" required>
+            <InputLabel id="country-code" sx={{fontSize: {xs: "12px", md: "14px"}}} required>
               Country Code
             </InputLabel>
             <Select
