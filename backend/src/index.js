@@ -4,14 +4,8 @@ const userRoute = require("./routes/userRoute")
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-const corsOptions = {
-  origin: "http://localhost:5173",
-  methods: "GET,POST",
-  allowedHeaders: ["Content-Type", "Authorization"],
-};
-
 app.use(express.json());
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use("/api/v1", userRoute);
 
