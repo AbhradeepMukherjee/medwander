@@ -1,5 +1,82 @@
 ### MedWander-Assignment
 
+# A comprehensive project integrating backend and frontend technologies for managing data with database operations, user interfaces, and external data sources.
+
+## Installation Steps:
+
+# Clone the Repository:
+
+```
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+
+# Backend Setup:
+
+1. Navigate to the backend directory:
+```
+cd backend
+```
+
+2. Install the required dependencies:
+```
+npm install
+```
+
+3. Set up your environment variables:
+   - Copy `.sample.env` to `.env`:
+     ```
+     cp .sample.env .env
+     ```
+   - Fill in the necessary environment variables in the `.env` file (e.g., database URL, API keys).
+
+# Frontend Setup:
+
+1. Navigate to the frontend directory:
+```
+cd ../frontend
+```
+
+2. Install the required dependencies:
+```
+npm install
+```
+
+
+1. Navigate to the frontend directory:
+
+## Project Functionality Overview: 
+
+# 1. Initial project setup and configuration
+
+- Initialized a Node.js project.
+- Added Express framework and Prisma for ORM.
+- Created a SQL database on Aiven.io.
+- Updated package.json with dependencies and scripts.
+- Structured backend with folders and set up basic Express server functionalities.
+- Configured environment variables with .env and .sample.env files.
+
+# 2. Refactor database schema for phone numbers and integrate backend operations
+
+- Implemented POST route to create records in the SQL database.
+- Added GET route to retrieve entries from the SQL database.
+- Updated Prisma schema, changing the type of "phoneNumber" attribute from Integer to String for better compatibility and functionality.
+
+# 3. Initialized React frontend with Vite, integrated Material UI, validation, Axios, and localStorage
+
+- Set up a frontend React application using Vite for fast development.
+- Used Material UI for building styled components and UI elements.
+- Implemented input field validation to ensure correct phone number format, validating against entered country codes.
+- Integrated Axios for seamless communication between the backend API and frontend UI.
+- Implemented localStorage to store user details locally on the client side for persistent user sessions.
+
+# 4. Connected to Google spreadsheet, created listing page, added refresh functionality, and ensured responsiveness
+
+- Integrated functionality to connect to a Google spreadsheet using the googleapis npm package.
+- Designed and implemented a listing page using Material UI for consistent styling and responsive layout.
+- Added a "Refresh" button on the listing page to fetch and update data from the SQL database in real-time.
+- Ensured the application's responsiveness for optimal viewing and usability across both mobile and desktop devices.
+
 ## Change Log:
 
 # 1: Initial project setup and configuration
@@ -29,7 +106,7 @@
 - Integrated Axios for communication between backend and frontend.
 - Implemented localStorage to store user details locally.
 
-# Connected to Google spreadsheet, created listing page with Material UI, added refresh functionality, and ensured responsiveness
+# 4: Connected to Google spreadsheet, created listing page with Material UI, added refresh functionality, and ensured responsiveness
 
 - Implemented functionality to connect to an online Google spreadsheet using the npm package googleapis.
 - Created a listing page using Material UI for styling and components.
