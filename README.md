@@ -45,7 +45,7 @@ npm install
 
 ## How to Run the Application:
 
-# Run the Backend Server:
+### Run the Backend Server:
 
 1. Navigate to the backend directory if not already there:
 
@@ -59,7 +59,7 @@ cd backend
 npm run start
 ```
 
-# Run the Frontend Server:
+### Run the Frontend Server:
 
 1. Navigate to the frontend directory if not already there:
 
