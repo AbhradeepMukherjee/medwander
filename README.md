@@ -20,3 +20,11 @@
   2. Added GET route to retrieve results from the SQL database.
 -  Updated Prisma schema:
    1. Changed the type of "phoneNumber" attribute in the schema from Integer to String.
+
+# 3: Initialize React frontend with Vite, integrate Material UI components, validation, Axios, and localStorage for user details
+
+- Set up frontend React application using Vite.
+- Utilized Material UI for building components and styling.
+- Implemented input field validation to ensure correct phone number format matching the entered country code.
+- Integrated Axios for communication between backend and frontend.
+- Implemented localStorage to store user details locally.
