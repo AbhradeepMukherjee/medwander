@@ -11,7 +11,7 @@ git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 ```
 
-#### Backend Setup:
+### Backend Setup:
 
 1. Navigate to the backend directory:
 ```
@@ -76,7 +76,7 @@ npm run dev
 3. Open your browser and go to:
 
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 
@@ -86,7 +86,7 @@ http://localhost:3000
 
 - Initialized a Node.js project.
 - Added Express framework and Prisma for ORM.
-- Created a SQL database on Aiven.io.
+- Created a SQL (postgresql) database on Aiven.io.
 - Updated package.json with dependencies and scripts.
 - Structured backend with folders and set up basic Express server functionalities.
 - Configured environment variables with .env and .sample.env files.
@@ -162,7 +162,7 @@ http://localhost:3000
 
 ![FormB](https://github.com/AbhradeepMukherjee/medwander/assets/132974862/7f86a398-1990-4eff-aa3a-9ae6cf4114ba)
 
-### Listing: 
+### Listing(/listing): 
 
 ![listing](https://github.com/AbhradeepMukherjee/medwander/assets/132974862/dcd9f562-7a71-4997-8f42-b072abfd154f)
 
