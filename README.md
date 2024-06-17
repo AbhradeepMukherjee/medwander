@@ -82,7 +82,7 @@ http://localhost:5173
 
 ## Project Functionality Overview: 
 
-### 1. Initial project setup and configuration
+### 1. Initial project setup and configuration:
 
 - Initialized a Node.js project.
 - Added Express framework and Prisma for ORM.
@@ -91,13 +91,13 @@ http://localhost:5173
 - Structured backend with folders and set up basic Express server functionalities.
 - Configured environment variables with .env and .sample.env files.
 
-### 2. Refactor database schema for phone numbers and integrate backend operations
+### 2. Refactor database schema for phone numbers and integrate backend operations:
 
 - Implemented POST route to create records in the SQL database.
 - Added GET route to retrieve entries from the SQL database.
 - Updated Prisma schema, changing the type of "phoneNumber" attribute from Integer to String for better compatibility and functionality.
 
-### 3. Initialized React frontend with Vite, integrated Material UI, validation, Axios, and localStorage
+### 3. Initialized React frontend with Vite, integrated Material UI, validation, Axios, and localStorage:
 
 - Set up a frontend React application using Vite for fast development.
 - Used Material UI for building styled components and UI elements.
@@ -105,7 +105,7 @@ http://localhost:5173
 - Integrated Axios for seamless communication between the backend API and frontend UI.
 - Implemented localStorage to store user details locally on the client side for persistent user sessions.
 
-### 4. Connected to Google spreadsheet, created listing page, added refresh functionality, and ensured responsiveness
+### 4. Connected to Google spreadsheet, created listing page, added refresh functionality, and ensured responsiveness:
 
 - Integrated functionality to connect to a Google spreadsheet using the googleapis npm package.
 - Designed and implemented a listing page using Material UI for consistent styling and responsive layout.
@@ -114,7 +114,7 @@ http://localhost:5173
 
 ## Change Log:
 
-### 1: Initial project setup and configuration
+### 1: Initial project setup and configuration:
 
 - Initialized Node.js project.
 - Added Express and Prisma.
@@ -125,7 +125,7 @@ http://localhost:5173
 - Configured app to listen on a specified port.
 - Added empty .env and .sample.env files for environment variables.
 
-### 2: Refactor database schema phone numbers and integrate backend operations for create and read the entries
+### 2: Refactor database schema phone numbers and integrate backend operations for create and read the entries:
 
 - Implemented POST and GET routes:
   1. Added POST route to create a record in the SQL database.
@@ -133,7 +133,7 @@ http://localhost:5173
 -  Updated Prisma schema:
    1. Changed the type of "phoneNumber" attribute in the schema from Integer to String.
  
-### 3: Initialized React frontend with Vite, integrated Material UI components, validation, Axios, and localStorage for user details
+### 3: Initialized React frontend with Vite, integrated Material UI components, validation, Axios, and localStorage for user details:
 
 - Set up frontend React application using Vite.
 - Utilized Material UI for building components and styling.
